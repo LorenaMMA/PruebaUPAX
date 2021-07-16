@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "28099be9-5868-475f-ace9-0c4f781b43c7",
+		"name": "AdminEmployee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registroempleado",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"genderId\": 1,\r\n    \"jobId\": 8,\r\n    \"name\": \"Mario\" ,\r\n    \"lastName\":  \"Peres\",\r\n    \"birthdate\": \"2000-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/admin-employ-service/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"admin-employ-service",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
